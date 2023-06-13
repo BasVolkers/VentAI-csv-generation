@@ -49,6 +49,6 @@ SELECT
 FROM first_admission_time f
 INNER JOIN hos_admissions h
 ON f.subject_id=h.subject_id
-INNER JOIN getElixhauserScore eli
+INNER JOIN getElixhauser_score2 eli
 ON f.subject_id=eli.subject_id AND  f.hadm_id=eli.hadm_id
 ORDER BY subject_id, hadm_id;
