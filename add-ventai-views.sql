@@ -35,3 +35,5 @@
 
 -- Stage 5
 \i ventai-views/sampled_data_with_scdem_withventparams.sql
+\i ventai-views/icustays-filtered.sql
+\i ventai-views/getFinalTable.sql
