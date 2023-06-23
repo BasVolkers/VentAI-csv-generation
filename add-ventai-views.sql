@@ -19,6 +19,7 @@
 \i ventai-views/getElixhauser_score.sql
 \i ventai-views/getWeight.sql
 \i ventai-views/getMainDemographics.sql
+\i ventai-views/getIdealBodyWeight.sql
 
 -- Stage 2
 \i ventai-views/overalltable_Lab_withventparams.sql
