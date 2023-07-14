@@ -47,7 +47,7 @@ Connect to the PSQL database and run the next command.
 Replace <output_path> with the desired location:
 
 ```
-\copy (SELECT * FROM sampled_with_scdem_withventparams) TO '<output_path>' DELIMITER ';' CSV HEADER
+\copy (SELECT * FROM getFinalTable) TO '<output_path>' DELIMITER ';' CSV HEADER
 ```
 
 You should end up with a .csv file that contains all the relevant information to start with VentAI.

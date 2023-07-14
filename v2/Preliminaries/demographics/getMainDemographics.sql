@@ -1,5 +1,5 @@
-DROP table IF EXISTS getMainDemographics;
-CREATE table getMainDemographics as
+DROP materialized view  IF EXISTS getMainDemographics;
+CREATE materialized view  getMainDemographics as
 
 WITH first_admission_time AS
 (

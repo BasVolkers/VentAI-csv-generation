@@ -2,7 +2,6 @@
 \i ventai-views/getGCS.sql
 \i ventai-views/getVitalSigns.sql
 \i ventai-views/getLabValues.sql
-\i ventai-views/getLabValues.sql
 \i ventai-views/getOthers.sql
 \i ventai-views/getVentilationParams.sql
 \i ventai-views/vent_parameters.sql
@@ -36,5 +35,7 @@
 
 -- Stage 5
 \i ventai-views/sampled_data_with_scdem_withventparams.sql
+
+-- Stage 6: Added by me
 \i ventai-views/icustays-filtered.sql
 \i ventai-views/getFinalTable.sql

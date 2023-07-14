@@ -28,4 +28,27 @@ FROM ce
 
 GROUP BY icustay_id, subject_id,hadm_id, charttime
 ORDER BY icustay_id, charttime
-	
+
+-- PEEP:
+--  itemid |      label       
+-- --------+------------------
+--      60 | Auto-PEEP Level
+--     437 | Low Peep
+--     505 | PEEP
+--     506 | PEEP Set
+--     686 | Total PEEP Level
+--  220339 | PEEP set
+--  224700 | Total PEEP Level
+
+-- Tidal volume: 
+--  itemid |           label            
+-- --------+----------------------------
+--     639 | Sigh Tidal Volume
+--     654 | Spont. Tidal Volume
+--     681 | Tidal Volume
+--     682 | Tidal Volume (Obser)
+--     683 | Tidal Volume (Set)
+--     684 | Tidal Volume (Spont)
+--  224684 | Tidal Volume (set)
+--  224685 | Tidal Volume (observed)
+--  224686 | Tidal Volume (spontaneous)
